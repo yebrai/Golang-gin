@@ -1,0 +1,61 @@
+# Go build files
+bin/
+pkg/
+*.exe
+*.test
+*.out
+
+# Vendor directories
+vendor/
+
+# IDE/editor files
+/.idea/
+/.vscode/
+/*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Logs
+*.log
+
+# Node.js dependency directories
+node_modules/
+
+# Other IDE/editor specific files
+/shelf/
+/workspace.xml
+/httpRequests/
+/dataSources/
+/dataSources.local.xml
+
+# Ignore all Docker related files and directories
+
+# Docker Compose files
+docker-compose.yml
+docker-compose.yaml
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Docker configuration files
+.dockerignore
+.dockerconfig.json
+.dockerignore
+
+# Docker related directories
+.docker/
+docker/
+
+# Docker volumes
+docker-volume/
+
+# Docker logs
+*.log
+
+# Ignore Dockerfiles and docker-compose examples
+Dockerfile*
+docker-compose*.yml
